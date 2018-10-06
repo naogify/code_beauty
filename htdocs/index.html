@@ -11,7 +11,8 @@
     <link rel="manifest" href="site.webmanifest">
     <link rel="apple-touch-icon" href="icon.png">
     <!-- Place favicon.ico in the root directory -->
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
@@ -21,18 +22,31 @@
     your browser</a> to improve your experience and security.</p>
 <![endif]-->
 <header>
-    <div>
-        <h1>naoki-is.me</h1>
-        <p>WordPress / Web developer’s Blog</p>
-    </div>
-    <nav>
-        <ul>
-            <li>About</li>
-            <li>WordPress</li>
-            <li>PHP</li>
-            <li>Other</li>
-            <li>検索窓</li>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-light container">
+        <a class="navbar-brand row justify-content-start" href="#">
+            <h1>naoki-is.me</h1>
+            <p>WordPress / Web developer’s Blog</p>
+        </a>
+        <div class="collapse navbar-collapse row justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">WordPress</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">PHP</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Other</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <!--<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>-->
+            </form>
+        </div>
     </nav>
 </header>
 <div class="container">
