@@ -98,11 +98,14 @@ textarea {
    ========================================================================== */
 $dark_gray: #D0D0D0;
 $light_gray: #F7F7F7;
+$white: #FFFFFF;
+body {
+  background-color: $light_gray;
 
+}
 header {
   padding: 20px 50px;
   background-color: $dark_gray;
-  display: flex;
   div {
     h1 {
       margin: 0;
@@ -119,6 +122,31 @@ header {
 
 }
 
+div.container {
+  margin: 50px auto;
+  main {
+    article {
+      background-color: $white;
+      padding: 20px 30px;
+      border-bottom: 1px solid $dark_gray;
+      ul{
+        display: flex;
+        flex-direction: row;
+        li{
+          margin: 0 5px
+        }
+      }
+    }
+  }
+  aside {
+    background-color: $white;
+  }
+}
+
+footer {
+  background-color: $dark_gray;
+  padding: 30px 50px;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
