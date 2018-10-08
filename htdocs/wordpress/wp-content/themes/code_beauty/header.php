@@ -12,8 +12,8 @@
 <header>
     <nav class="navbar navbar-expand-lg navbar-light container">
         <a class="navbar-brand row justify-content-start" href="#">
-            <h1>naoki-is.me</h1>
-            <p>WordPress / Web developer’s Blog</p>
+            <h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
+            <p><?php bloginfo( 'description' ); ?></p>
         </a>
         <div class="collapse navbar-collapse row justify-content-end" id="navbarSupportedContent">
             <ul class="navbar-nav">
