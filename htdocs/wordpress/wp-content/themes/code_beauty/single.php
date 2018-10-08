@@ -1,13 +1,7 @@
 <?php
 get_header(); ?>
-    <div class="row">
-        <div id="pankuzu">
-            <a href="">Home</a>
-            <p>></p> <a href="">WordPress</a></div>
-    </div>
-    <div class="row">
-        <main class="col-8">
-            <article id="post-19"
+    <main class="col-8">
+        <article id="post-19"
                      class="post-19 post type-post status-publish format-standard hentry category-uncategorized tag-boat tag-lake">
 
                 <header class="entry-header">
@@ -37,7 +31,7 @@ get_header(); ?>
 
             </article><!-- #post-## -->
 
-            <article id="post-36"
+        <article id="post-36"
                      class="post-36 post type-post status-publish format-standard hentry category-uncategorized">
                 <header class="entry-header">
                     <div class="entry-meta"><span class="screen-reader-text">Posted on</span> <a
@@ -231,7 +225,7 @@ nunc. Morbi imperdiet augue
 
             </article><!-- #post-## -->
 
-            <article id="post-14"
+        <article id="post-14"
                      class="post-14 post type-post status-publish format-standard hentry category-uncategorized tag-wordpress">
                 <header class="entry-header">
                     <div class="entry-meta"><span class="screen-reader-text">Posted on</span> <a
@@ -250,7 +244,7 @@ nunc. Morbi imperdiet augue
 
             </article><!-- #post-## -->
 
-            <article id="post-8"
+        <article id="post-8"
                      class="post-8 post type-post status-publish format-standard hentry category-uncategorized tag-html tag-wordpress">
                 <header class="entry-header">
                     <div class="entry-meta"><span class="screen-reader-text">Posted on</span> <a
@@ -304,7 +298,7 @@ nunc. Morbi imperdiet augue
 
             </article><!-- #post-## -->
 
-            <article id="post-6"
+        <article id="post-6"
                      class="post-6 post type-post status-publish format-standard hentry category-uncategorized">
                 <header class="entry-header">
                     <div class="entry-meta"><span class="screen-reader-text">Posted on</span> <a
@@ -325,7 +319,7 @@ nunc. Morbi imperdiet augue
 
             </article><!-- #post-## -->
 
-            <article id="post-4"
+        <article id="post-4"
                      class="post-4 post type-post status-publish format-standard hentry category-first-child-category category-one-grandchild-category category-parent category-second-child-category">
                 <header class="entry-header">
                     <div class="entry-meta"><span class="screen-reader-text">Posted on</span> <a
@@ -352,7 +346,7 @@ nunc. Morbi imperdiet augue
 
             </article><!-- #post-## -->
 
-            <article id="post-1"
+        <article id="post-1"
                      class="post-1 post type-post status-publish format-standard hentry category-uncategorized">
                 <header class="entry-header">
                     <div class="entry-meta"><span class="screen-reader-text">Posted on</span> <a
@@ -371,10 +365,10 @@ nunc. Morbi imperdiet augue
 
 
             </article><!-- #post-## -->
-            <article class="page-nation">
+        <article class="page-nation">
                 <button type="button" class="btn btn-outline-secondary">Older Posts</button>
                 <button type="button" class="btn btn-outline-secondary">New Posts</button>
             </article>
-        </main>
+    </main>
 <?php
 get_footer();

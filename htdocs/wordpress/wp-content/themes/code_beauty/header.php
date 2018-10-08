@@ -46,4 +46,14 @@
         </div>
     </nav>
 </header>
-<div class="container row">
+<div class="container">
+	<?php if ( is_single() ): ?>
+        <div class="row">
+            <div id="pankuzu">
+                <a href="">Home</a>
+                <p>></p> <a href="">WordPress</a></div>
+        </div>
+	<?php else: ?>
+	<?php endif; ?>
+    <div class="row">
+
