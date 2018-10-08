@@ -1,16 +1,5 @@
 <?php
 
-//require header.php and footer.php.
-if ( ! is_admin() && ! is_login_page() ) {
-	require dirname( __FILE__ ) . '/header.php';
-}
-
-// check if current page is login-page or not
-function is_login_page() {
-	return in_array( $GLOBALS['pagenow'], array( 'wp-login.php', 'wp-register.php' ) );
-}
-
-
 add_action( 'after_setup_theme', 'code_beauty_setup' );
 function code_beauty_setup() {
 	add_theme_support( 'title-tag' );
