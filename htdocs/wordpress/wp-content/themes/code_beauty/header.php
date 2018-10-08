@@ -19,12 +19,12 @@
 	        <?php
 	        $args = array(
 		        'theme_location' => 'Header Navigation',
-		        'items_wrap'     => '<ul id="%1$s" class="%2$s nav navbar-nav wck_nav">%3$s</ul>',
+		        'menu_class' => 'navbar-nav',
+		         'container' => false,
+		        'items_wrap'     => '<ul id="%1$s" class="%2$s">%3$s</ul>',
 	        );
 	        wp_nav_menu( $args ) ;
 	        ?>
-
-
 <!--            <ul class="navbar-nav">-->
 <!--                <li class="nav-item">-->
 <!--                    <a class="nav-link" href="#">About</a>-->
