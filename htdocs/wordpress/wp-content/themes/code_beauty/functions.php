@@ -3,6 +3,7 @@
 add_action( 'after_setup_theme', 'code_beauty_setup' );
 function code_beauty_setup() {
 	add_theme_support( 'title-tag' );
+	register_nav_menus( array( 'Header Navigation' => 'Header Navigation', ) );
 }
 
 add_action( 'wp_enqueue_scripts', 'code_beauty_scripts' );

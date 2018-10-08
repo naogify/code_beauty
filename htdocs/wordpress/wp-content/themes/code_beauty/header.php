@@ -16,20 +16,29 @@
             <p><?php bloginfo( 'description' ); ?></p>
         </a>
         <div class="collapse navbar-collapse row justify-content-end" id="navbarSupportedContent">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">WordPress</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">PHP</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Other</a>
-                </li>
-            </ul>
+	        <?php
+	        $args = array(
+		        'theme_location' => 'Header Navigation',
+		        'items_wrap'     => '<ul id="%1$s" class="%2$s nav navbar-nav wck_nav">%3$s</ul>',
+	        );
+	        wp_nav_menu( $args ) ;
+	        ?>
+
+
+<!--            <ul class="navbar-nav">-->
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link" href="#">About</a>-->
+<!--                </li>-->
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link" href="#">WordPress</a>-->
+<!--                </li>-->
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link" href="#">PHP</a>-->
+<!--                </li>-->
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link" href="#">Other</a>-->
+<!--                </li>-->
+<!--            </ul>-->
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                 <!--<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>-->
