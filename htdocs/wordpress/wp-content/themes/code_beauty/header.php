@@ -1,7 +1,11 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: naoppy
- * Date: 2018/10/08
- * Time: 16:15
- */
+<?php ?>
+<!doctype html>
+<html class="no-js" <?php language_attributes(); ?>>
+<head>
+    <meta charset="<?php bloginfo( 'charset' ); ?>">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1,">
+
+	<?php wp_head(); ?>
+</head>
+<body <?php body_class(); ?>>
