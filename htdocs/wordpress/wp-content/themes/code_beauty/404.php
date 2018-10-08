@@ -1,7 +1,7 @@
 <?php
 get_header(); ?>
     <main class="col-8">
-        <div>Pages not found</div>
+        <div>Pages Not Found.</div>
     </main>
     <aside class="col-4">
         widget area
